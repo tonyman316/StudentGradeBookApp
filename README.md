@@ -1,2 +1,2 @@
 # StudentGradeBookApp
-A console application to manage student grades.
+A console app for manage student grades and generate class statistics.
