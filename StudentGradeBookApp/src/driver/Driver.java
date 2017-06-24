@@ -11,7 +11,7 @@ public class Driver {
 	}
 	
 	public static void beginAnalyze(int numberOfStudent){
-		String fileName = "/Users/tonyman/Documents/Projects/Java/StudentGradeBookApp/src/util/studentScores" + numberOfStudent + ".txt";
+		String fileName = "/Users/tonyman/git/StudentGradeBookApp/StudentGradeBookApp/src/util/studentScores" + numberOfStudent + ".txt";
 
 		Student studentList [] = new Student[numberOfStudent];
 		Util fileIO = new Util();
@@ -21,7 +21,9 @@ public class Driver {
 		
 		testInstructorFunctions(studentList);
 		
+		//Generate class statistic
 		//testObject(studentList);
+		
 		//testSerialization(studentList, numberOfStudent);
 	}
 	
@@ -38,7 +40,6 @@ public class Driver {
 		
 	}
 	
-/*
 	public static void testObject(Student [] studentList){
 		SGRAPI test1 = new TestSGRAPI(studentList, "Chem", "Prof.X", "MW:1-3pm", "ATC201");
 		test1.printAllRecord();
@@ -62,7 +63,7 @@ public class Driver {
 		// test the input object
 		testObject(studentList2);
 	}
-*/
+
 	
 
 }
